@@ -1,0 +1,16 @@
+{
+  "name": "lab5-basic-node",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint . --max-warnings 0",
+    "test": "node --test",
+    "build": "node -c src/index.js && echo \"Build OK (syntax check)\""
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "@eslint/js": "^8.57.0"
+  }
+}
